@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrossel{
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  background-image: url(./0.jpg);
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+}
+
+.imagem {
+  width: 800px;
+  height: 500px;
+}
+
+.slides input {
+  display: none;
+}
+
+.navManual {
+  position: absolute;
+  width: 200px;
+  top: 95%;
+  display: flex;
+  justify-content: space-between;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.manualBotao {
+  width: 25px;
+  border: 2px solid #087f5b;
+  box-shadow: 0px 1px 5px 1px rgba(8,127,91,1);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manualBotao:hover{
+  background: #087f5b;
+}
